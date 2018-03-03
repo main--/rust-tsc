@@ -1,0 +1,11 @@
+[package]
+name = "tsc"
+description = "Read the x86 TSC on stable Rust!"
+license = "MIT"
+version = "0.1.0"
+authors = ["main() <main@ehvag.de>"]
+
+[build-dependencies]
+cc = "1.0"
+
+[dependencies]
